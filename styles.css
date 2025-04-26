@@ -225,6 +225,14 @@
 	background-image: url(./images/java.png)
 }
 
+.sprite.sprite-kotlin {
+	background-image: url(./images/kotlin.jpeg)
+}
+
+.sprite.sprite-graphql {
+	background-image: url(./images/graphql.png)
+}
+
 .sprite.sprite-karma {
 	background-position: -5px -5px;
 	width: 40px;

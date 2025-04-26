@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import resume from './Dpk_matta_resume.pdf';
+import resume from './Deepak_CS_Disco_Resume.pdf';
 
 class App extends Component {
 
@@ -68,7 +68,7 @@ class App extends Component {
                       <p className="paragraph animated delay011 fadeInUp">I enjoy learning new things, spending my time working on Data Structures & Algorithms and strongly believe that continuous education is the only way for all of us to evolve.</p>
                     </div>
                     <div className="download-resume-btn animated delay015 fadeInDown">
-                      <a href={resume} target="_blank">Download Resume</a>
+                        <a href={resume} target="_blank" rel="noopener noreferrer" download>Download Resume</a>
                     </div>
                 </div>
               </div>
@@ -118,6 +118,14 @@ class App extends Component {
                               </div>
                            </div>
                         </div>
+                        <div className="skill-list-item text-center animated delay003 fadeInRight">
+                           <div>
+                              <div title="Kotlin">
+                                 <div className="sprite sprite-kotlin sprite-icon"></div>
+                                 <span>Kotlin</span>
+                              </div>
+                           </div>
+                        </div>
                         <div className="skill-list-item text-center animated delay004 fadeInRight">
                            <div>
                               <div title="Python">
@@ -131,6 +139,14 @@ class App extends Component {
                               <div title="MySQL">
                                  <div className="sprite sprite-mysql sprite-icon"></div>
                                  <span>MySQL</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div className="skill-list-item text-center animated delay003 fadeInRight">
+                           <div>
+                              <div title="GraphQL">
+                                 <div className="sprite sprite-graphql sprite-icon"></div>
+                                 <span>GraphQL</span>
                               </div>
                            </div>
                         </div>
